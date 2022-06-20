@@ -91,8 +91,9 @@ body{
 .headtag2{
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
-    margin-left: 110px;
+    row-gap: 0px;
+    margin-top: 100px;
+    margin-left: 115px;
     flex-wrap: wrap;
 }
 .grow{
@@ -108,6 +109,128 @@ body{
     margin-left: 180px;
 }
 .paragraph2{
-    width: 400px;
+    width: 420px;
     margin-top: 1px;
+    font-size: large;
+    color: grey;
+}
+.section3{
+    border-style: outset;
+    border-right: outset;
+    border-bottom: outset;
+    border-radius: 20px;
+    margin: 35px 100px 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.flowing-img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.headtag3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.flowing{
+    display: inline-block;
+    width: 70% ;
+    font-size: large;
+    margin-bottom: 2px;
+}
+.paragraph3{
+    width: 440px;
+    margin-top: 1px;
+    font-size: large;
+    color: grey;
+}
+.section4{
+    border-style: outset;
+    border-right: outset;
+    border-bottom: outset;
+    border-radius: 20px;
+    margin: 35px 100px 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.headtag4{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    margin-top: 100px;
+    margin-left: 115px;
+    flex-wrap: wrap;
+}
+.your{
+    display: inline-block;
+    width: 50% ;
+    font-size: larger;
+    margin-bottom: 2px;
+}
+.your-img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.paragraph4{
+    width: 420px;
+    margin-top: 1px;
+    font-size: large;
+    color: grey;
+}
+.section5{
+    border-style: outset;
+    border-right: outset;
+    border-bottom: outset;
+    border-radius: 20px;
+    height: 240px;
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 330px;
+
+}
+.ready{
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+#get-started{
+    width: 320px;
+    height: 60px;
+    margin-left: 100px;
+}
+.section6{
+    border-style: hidden;
+    background-color: rgb(6, 27, 31);
+    height: 500px;
+    color: white;
+    padding-top: 150px;
+}
+.logo2{
+    color: white;
+    height: 24px;
+    width: 170px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+}
+.lorem{
+    width: 40%;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
 }
