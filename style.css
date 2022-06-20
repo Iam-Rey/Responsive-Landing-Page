@@ -2,3 +2,112 @@ body{
     margin: 0;
     padding: 0;
 }
+.section1{
+    background-image: url(bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(240, 250, 255);
+    height: 650px;
+}
+.logo{
+    width: 150px;
+    height: 22px;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+.logo-button{
+    display: flex;
+    flex-direction: row;
+    
+}
+.button1{
+    margin-right: 10px;
+    margin-left: 885px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.try-it-free{
+    height: 33px;
+    width: 140px;
+    border-radius: 40px;
+    background-color: white;
+    font-size: x-small;
+    font-weight: bolder;
+    border-style: hidden;
+
+}
+.mock-ups{
+    height: 450px;
+    width: 600px;
+    margin-left: 60px;
+}
+.mockups-build{
+    display: flex;
+    flex-direction: row;
+
+}
+.headtag1{
+    display: inline-block;
+    width: 500px;
+    margin-left: 90px;
+    margin-top: 70px;
+    font-size: xx-large;
+    line-height: 45px;
+    
+}
+.paragraph1{
+    width: 460px;
+    margin-left: 90px;
+    margin-right: 50px;
+    font-size: large;
+}
+.button2{
+    margin-left: 90px;
+    height: 40px;
+    width: 300px;
+    margin-top: 30px;
+}
+.get-started{
+    width: 230px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: hidden;
+    background-color: hotpink;
+    font-size: small;
+    color: white;
+}
+
+.section2{
+    border-style: outset;
+    border-right: outset;
+    border-bottom: outset;
+    border-radius: 20px;
+    margin: 150px 100px 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.headtag2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 110px;
+    flex-wrap: wrap;
+}
+.grow{
+    display: inline-block;
+    width: 50% ;
+    font-size: larger;
+    margin-bottom: 2px;
+}
+.grow-img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.paragraph2{
+    width: 400px;
+    margin-top: 1px;
+}
